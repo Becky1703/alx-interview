@@ -1,4 +1,5 @@
-"""Function to Implement Pascal's Triangle """
+#!/usr/bin/python3
+"""Function to Implement Pascal's Triangle"""
 
 
 def pascal_triangle(n):
@@ -7,6 +8,7 @@ def pascal_triangle(n):
         return []
 
     # Creates an empty triangle
+    
     triangle = [[1]]
 
     # Fills the triangle with rows
