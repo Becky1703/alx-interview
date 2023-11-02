@@ -6,10 +6,9 @@ import sys
 solutions = []
 """list of possible solutions to N queens problem"""
 
-n = 0 # size of chessboard
+n = 0  # size of chessboard
 
-pos = None # List of possible positions on the chessboard
-
+pos = None  # List of possible positions on the chessboard
 
 
 def get_input():
@@ -85,6 +84,3 @@ n = get_input()
 get_solutions()
 for solution in solutions:
     print(solution)
-
-            
-            
